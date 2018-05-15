@@ -1,0 +1,56 @@
+body{
+  background-color: rgba(19, 44, 223, 0.46);
+  }
+  .column, .columns {
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0px;
+    padding-right: 0;
+    padding-left: 0.9375rem;
+    min-width: 0;
+}
+  .callout {
+    position: relative;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    background-color: white;
+    color: #d54242;
+  }
+    .row {
+        max-width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+        border-radius: 10px;
+    }
+
+.row:not(.expanded) .row {
+    max-width: 100%
+  }
+h1{
+  font-family: mistral;
+}
+a {
+    line-height: inherit;
+    color: rgb(28, 44, 210);
+    text-decoration: none;
+    cursor: pointer;
+}
+textarea{
+
+  border-radius:10px 0 0 10px ;
+  background-color:rgb(196, 23, 64);
+}
+.comentarios{
+  font-family: monospace;
+}
+.comentarios img{
+
+  width: 30px;
+  height: 30spx;
+}
+.cardr{
+flex-wrap: wrap;
+}

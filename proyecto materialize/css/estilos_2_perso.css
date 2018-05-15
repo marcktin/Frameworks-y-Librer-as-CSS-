@@ -1,0 +1,51 @@
+.barra-superior{
+  min-height: 4rem;
+}
+.barra-superior .row{
+  margin-bottom: 0;
+}
+.logo{
+  width: 70px;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  float: left;
+}
+.container{
+  width: 100%;
+}
+.container li{
+  margin-top: 3rem;
+}
+.container .row{
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+.columna-publicaciones{
+  padding: 1rem;
+}
+.responsive-img{
+  margin: 2rem 0 2rem 0;
+
+
+}
+.comentario{
+  border:0.1rem solid rgb(29, 102, 226);
+   width: 70%;
+}
+
+    .row .col {
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.1rem;
+    min-height: 1px;
+}
+
+.card {
+    position: relative;
+    margin: 1rem ;
+      }
+      ul:not(.browser-default) {
+          padding-left: 15px;
+          list-style-type: none;
+      }
